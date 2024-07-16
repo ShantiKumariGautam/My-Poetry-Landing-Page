@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFC0CB;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #FF69B4;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.poetry h2 {
+    font-size: 2em;
+    color: #FF69B4;
+}
+
+.poem {
+    margin: 20px 0;
+}
+
+.poem h3 {
+    font-size: 1.5em;
+    color: #FF1493;
+}
+
+.poem p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #555;
+}
+
+.read-more-btn {
+    background-color: #FF69B4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more-btn:hover {
+    background-color: #FF1493;
+}
+
+.full-poem {
+    display: none;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
